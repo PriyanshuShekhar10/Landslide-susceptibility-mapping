@@ -1,0 +1,335 @@
+[INFO] 2023-07-09 02:59:55 NoData value differs. Mask: -9999.0 - Raster: -99999.0
+[INFO] 2023-07-09 02:59:55 Amount of NoData differs. Mask: 2679390 - Raster: 2679929
+[INFO] 2023-07-09 02:59:55 NoData values updated.
+[INFO] 2023-07-09 02:59:56 E:\LSM\Rasuwa\data\params\DEM.tif created.
+[INFO] 2023-07-09 02:59:56 No RAT created. E:\LSM\Original+layers (1)\Original layers\DEM.tif is either type float or has too many values.
+[INFO] 2023-07-09 03:00:06 NoData value differs. Mask: -9999.0 - Raster: -99999.0
+[INFO] 2023-07-09 03:00:06 Amount of NoData differs. Mask: 2679390 - Raster: 2679929
+[INFO] 2023-07-09 03:00:06 E:\LSM\Rasuwa\data\params\DEM.tif already exists and will be overwritten.
+[INFO] 2023-07-09 03:00:06 NoData values updated.
+[INFO] 2023-07-09 03:00:06 E:\LSM\Rasuwa\data\params\DEM.tif created.
+[INFO] 2023-07-09 03:00:06 No RAT created. E:\LSM\Original+layers (1)\Original layers\DEM.tif is either type float or has too many values.
+[INFO] 2023-07-09 03:00:56 Calculate slope...
+[INFO] 2023-07-09 03:00:56 Analysis completed!
+[INFO] 2023-07-09 03:02:15 Dataset E:\LSM\Rasuwa\data\params\aspect_rc.tif removed
+[INFO] 2023-07-09 03:03:30 Calculate TPI...
+[INFO] 2023-07-09 03:03:30 Analysis completed!
+[INFO] 2023-07-09 03:04:27 Calculate aspect...
+[INFO] 2023-07-09 03:04:27 Analysis completed!
+[INFO] 2023-07-09 03:04:40 Calculate roughness...
+[INFO] 2023-07-09 03:04:40 Analysis completed!
+[INFO] 2023-07-09 03:05:04 Analysis completed!
+[INFO] 2023-07-09 03:05:04 Calculate hillshade...
+[INFO] 2023-07-09 03:05:19 Calculate TRI...
+[INFO] 2023-07-09 03:05:19 Analysis completed!
+[INFO] 2023-07-09 03:08:52 data path localized - E:\LSM\Rasuwa\data
+[INFO] 2023-07-09 03:08:52 param folder localized - E:\LSM\Rasuwa\data\params
+[INFO] 2023-07-09 03:08:52 inventory folder localized - E:\LSM\Rasuwa\data\inventory
+[INFO] 2023-07-09 03:08:52 training folder localized - E:\LSM\Rasuwa\data\inventory\training
+[INFO] 2023-07-09 03:09:41 LR .ini not found. Generating new one: C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\Widgets\LogisticRegression\configLogReg.ini
+[INFO] 2023-07-09 03:11:21 Start data preparation...
+[INFO] 2023-07-09 03:11:50 Session start. Loaded Project: E:\LSM\Rasuwa
+[INFO] 2023-07-09 03:12:18 Start data preparation...
+[INFO] 2023-07-09 03:12:36 Session start. Loaded Project: E:\LSM\Rasuwa
+[INFO] 2023-07-09 03:13:06 Clipping feature to region.shp
+[INFO] 2023-07-09 03:13:23 Session start. Loaded Project: E:\LSM\Rasuwa
+[INFO] 2023-07-09 03:13:54 Clipping feature to region.shp
+[INFO] 2023-07-09 03:13:54 Perform Clip...
+[INFO] 2023-07-09 03:13:54 Clipped feature E:\LSM\Rasuwa\workspace\clipped4import.shp created
+[INFO] 2023-07-09 03:13:54 Successfully created E:\LSM\Rasuwa\data\inventory\training\inventory_training.shp - 80% of E:\LSM\Rasuwa\workspace\clipped4import.shp
+[INFO] 2023-07-09 03:13:54 Successfully created E:\LSM\Rasuwa\data\inventory\test\inventory_test.shp - 20% of E:\LSM\Rasuwa\workspace\clipped4import.shp
+[INFO] 2023-07-09 03:15:06 Start data preparation...
+[INFO] 2023-07-09 03:16:38 Session start. Loaded Project: E:\LSM\Rasuwa
+[INFO] 2023-07-09 03:16:42 ANN .ini not found. New one generated: C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\widgets\ANN\ann_config.ini
+[ERROR] 2023-07-09 03:17:03 Traceback (most recent call last):
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Analysis\ann_calc.py", line 44, in run
+    stack, labels, stack_full, noDataArray, nr_of_unique_parameters = rasterprepwork.prepareInputData(
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Rasterprepwork\rpw_main.py", line 34, in prepareInputData
+    minMaxScaledArray_red, minMaxScaledArray = self.getMinMaxScaledArray(data[0], noDataArray)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Rasterprepwork\rpw_main.py", line 87, in getMinMaxScaledArray
+    array[array == raster.nodata] = np.nan
+ValueError: cannot convert float NaN to integer
+
+[INFO] 2023-07-09 03:17:45 data path localized - E:\LSM\Rasuwa\data
+[INFO] 2023-07-09 03:17:45 param folder localized - E:\LSM\Rasuwa\data\params
+[INFO] 2023-07-09 03:17:45 inventory folder localized - E:\LSM\Rasuwa\data\inventory
+[INFO] 2023-07-09 03:17:45 training folder localized - E:\LSM\Rasuwa\data\inventory\training
+[INFO] 2023-07-09 03:17:53 Starting analyis
+[INFO] 2023-07-09 03:17:53 Check progress on progress bars
+[INFO] 2023-07-09 03:17:53 Start simple cross validation
+[INFO] 2023-07-09 03:19:35 Session start. Loaded Project: E:\LSM\Rasuwa
+[INFO] 2023-07-09 03:19:45 data path localized - E:\LSM\Rasuwa\data
+[INFO] 2023-07-09 03:19:45 param folder localized - E:\LSM\Rasuwa\data\params
+[INFO] 2023-07-09 03:19:45 inventory folder localized - E:\LSM\Rasuwa\data\inventory
+[INFO] 2023-07-09 03:19:45 training folder localized - E:\LSM\Rasuwa\data\inventory\training
+[INFO] 2023-07-09 03:19:49 Starting analyis
+[INFO] 2023-07-09 03:19:49 Check progress on progress bars
+[INFO] 2023-07-09 03:19:49 Start simple cross validation
+[ERROR] 2023-07-09 03:23:07 Traceback (most recent call last):
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Analysis\ann_calc.py", line 44, in run
+    stack, labels, stack_full, noDataArray, nr_of_unique_parameters = rasterprepwork.prepareInputData(
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Rasterprepwork\rpw_main.py", line 47, in prepareInputData
+    stack_red = np.vstack(tuple(locals_list))
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\pkgs\numpy\core\shape_base.py", line 282, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 364903 and the array at index 1 has size 3044832
+
+[INFO] 2023-07-09 03:23:11 Support for ANN is coming soon.
+[INFO] 2023-07-09 03:23:12 Support for ANN is coming soon.
+[ERROR] 2023-07-09 03:23:13 Traceback (most recent call last):
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\widgets\ANN\ann_main.py", line 101, in on_showResults
+    result = np.load(self.resultPath, allow_pickle=True)
+AttributeError: 'ann' object has no attribute 'resultPath'
+
+[ERROR] 2023-07-09 03:24:09 Traceback (most recent call last):
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Analysis\ann_calc.py", line 44, in run
+    stack, labels, stack_full, noDataArray, nr_of_unique_parameters = rasterprepwork.prepareInputData(
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Rasterprepwork\rpw_main.py", line 47, in prepareInputData
+    stack_red = np.vstack(tuple(locals_list))
+  File "<__array_function__ internals>", line 5, in vstack
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\pkgs\numpy\core\shape_base.py", line 282, in vstack
+    return _nx.concatenate(arrs, 0)
+  File "<__array_function__ internals>", line 5, in concatenate
+ValueError: all the input array dimensions for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 364903 and the array at index 2 has size 3044832
+
+[INFO] 2023-07-09 03:25:55 No model selected.
+[INFO] 2023-07-09 03:25:56 No model selected.
+[INFO] 2023-07-09 03:25:57 No model selected.
+[INFO] 2023-07-09 03:25:58 No model selected.
+[INFO] 2023-07-09 03:25:59 No model selected.
+[INFO] 2023-07-09 03:27:03 Start reclassify data...
+[INFO] 2023-07-09 03:27:03 Reclassification completed! Reclassified raster E:\LSM\Rasuwa\data\params\aspect_rc.tif created.
+[INFO] 2023-07-09 03:27:32 Start reclassify data...
+[INFO] 2023-07-09 03:27:32 Reclassification completed! Reclassified raster E:\LSM\Rasuwa\data\params\hillshade_rc.tif created.
+[INFO] 2023-07-09 03:27:53 Start reclassify data...
+[INFO] 2023-07-09 03:27:53 Reclassification completed! Reclassified raster E:\LSM\Rasuwa\roughness_rc.tif created.
+[INFO] 2023-07-09 03:27:53 Start reclassify data...
+[INFO] 2023-07-09 03:27:54 Reclassification completed! Reclassified raster E:\LSM\Rasuwa\roughness_rc.tif created.
+[INFO] 2023-07-09 03:28:26 Start reclassify data...
+[INFO] 2023-07-09 03:28:26 Reclassification completed! Reclassified raster E:\LSM\Rasuwa\slope_rc.tif created.
+[INFO] 2023-07-09 03:29:03 Start reclassify data...
+[INFO] 2023-07-09 03:29:03 Reclassification completed! Reclassified raster E:\LSM\Rasuwa\data\params\tpi_rc.tif created.
+[INFO] 2023-07-09 03:30:03 Start reclassify data...
+[INFO] 2023-07-09 03:30:04 Reclassification completed! Reclassified raster E:\LSM\Rasuwa\data\params\tri_rc.tif created.
+[INFO] 2023-07-09 03:30:06 Start reclassify data...
+[INFO] 2023-07-09 03:30:07 Reclassification completed! Reclassified raster E:\LSM\Rasuwa\data\params\tri_rc.tif created.
+[INFO] 2023-07-09 03:30:27 Session start. Loaded Project: E:\LSM\Rasuwa
+[INFO] 2023-07-09 03:30:42 data path localized - E:\LSM\Rasuwa\data
+[INFO] 2023-07-09 03:30:42 param folder localized - E:\LSM\Rasuwa\data\params
+[INFO] 2023-07-09 03:30:42 inventory folder localized - E:\LSM\Rasuwa\data\inventory
+[INFO] 2023-07-09 03:30:42 training folder localized - E:\LSM\Rasuwa\data\inventory\training
+[INFO] 2023-07-09 03:30:46 Starting analyis
+[INFO] 2023-07-09 03:30:46 Check progress on progress bars
+[INFO] 2023-07-09 03:30:46 Start simple cross validation
+[INFO] 2023-07-09 03:30:47 Weight raster E:\LSM\Rasuwa\results\WoE\rasters\aspect_rc_woe.tif created.
+[INFO] 2023-07-09 03:30:48 Weight raster E:\LSM\Rasuwa\results\WoE\rasters\hillshade_rc_woe.tif created.
+[INFO] 2023-07-09 03:30:49 Weight raster E:\LSM\Rasuwa\results\WoE\rasters\roughness_rc_woe.tif created.
+[INFO] 2023-07-09 03:30:49 Weight raster E:\LSM\Rasuwa\results\WoE\rasters\slope_rc_woe.tif created.
+[INFO] 2023-07-09 03:30:50 Weight raster E:\LSM\Rasuwa\results\WoE\rasters\tpi_rc_woe.tif created.
+[INFO] 2023-07-09 03:30:51 Weight raster E:\LSM\Rasuwa\results\WoE\rasters\tri_rc_woe.tif created.
+[INFO] 2023-07-09 03:30:51 Analysis completed!
+[INFO] 2023-07-09 03:30:53 Please select an item.
+[INFO] 2023-07-09 03:30:54 Please select an item.
+[INFO] 2023-07-09 03:31:41 activation		relu	
+alpha		0.0001	
+batch_size		auto	
+beta_1		0.9	
+beta_2		0.999	
+early_stopping		False	
+epsilon		1e-08	
+hidden_layer_sizes		(100,)	
+learning_rate		constant	
+learning_rate_init		0.001	
+max_fun		1	
+max_iter		200	
+momentum		0.9	
+n_iter_no_change		10	
+nesterovs_momentum		True	
+power_t		0.5	
+random_state		None	
+shuffle		True	
+solver		adam	
+tol		0.0001	
+validation_fraction		0.1	
+verbose		False	
+warm_start		False
+[INFO] 2023-07-09 03:31:41 Starting ANN learning with Parameters:
+
+[ERROR] 2023-07-09 03:32:47 Traceback (most recent call last):
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 39, in __init__
+    doc = self.writeanalysis(doc, result, raster, project_path)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 213, in writeanalysis
+    self._add_visresultsplot(doc, result, project_path)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 228, in _add_visresultsplot
+    labels = PlotFunctions.getLabels(result)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\widgets\ResultViewer\plotViewer_main.py", line 57, in getLabels
+    self.tr("No Raster Attribute Table found in {}.").format(
+NameError: name 'self' is not defined
+
+[WARNING] 2023-07-09 03:32:48 Could not read raster attribute table of E:\LSM\Rasuwa\data\params\roughness_rc.tif
+[INFO] 2023-07-09 03:33:01 Session start. Loaded Project: E:\LSM\Rasuwa
+[INFO] 2023-07-09 03:34:24 Start combine analysis...
+[INFO] 2023-07-09 03:34:26 Create NoData mask...
+[INFO] 2023-07-09 03:34:27 NoData mask ready...
+[INFO] 2023-07-09 03:34:40 Session start. Loaded Project: E:\LSM\Rasuwa
+[INFO] 2023-07-09 03:35:18 Start combine analysis...
+[INFO] 2023-07-09 03:35:19 Create NoData mask...
+[INFO] 2023-07-09 03:35:20 NoData mask ready...
+[INFO] 2023-07-09 03:35:20 Combine completed in 1.7822326000000004 s
+[INFO] 2023-07-09 03:35:37 Dataset E:\LSM\Rasuwa\New Folder\aspect_rc_woe.tif removed
+[INFO] 2023-07-09 03:35:56 Dataset E:\LSM\Rasuwa\results\WoE\rasters\aspect_rc_woe.tif removed
+[INFO] 2023-07-09 03:35:57 Dataset E:\LSM\Rasuwa\results\WoE\rasters\roughness_rc_woe.tif removed
+[INFO] 2023-07-09 03:35:59 Dataset E:\LSM\Rasuwa\results\WoE\rasters\hillshade_rc_woe.tif removed
+[INFO] 2023-07-09 03:36:00 Dataset E:\LSM\Rasuwa\results\WoE\rasters\slope_rc_woe.tif removed
+[INFO] 2023-07-09 03:36:01 Dataset E:\LSM\Rasuwa\results\WoE\rasters\tpi_rc_woe.tif removed
+[INFO] 2023-07-09 03:36:02 Dataset E:\LSM\Rasuwa\results\WoE\rasters\tri_rc_woe.tif removed
+[INFO] 2023-07-09 03:36:20 Start data preparation...
+[INFO] 2023-07-09 03:36:24 Start training...
+[INFO] 2023-07-09 03:36:24 Settings:('l2', False, 0.0001, 1.0, True, 1.0, None, None, 'lbfgs', 100, 'auto', 0, False, None, None)
+[WARNING] 2023-07-09 03:36:27 C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\pkgs\sklearn\linear_model\_logistic.py:814: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+
+[INFO] 2023-07-09 03:36:27 Training accomplished in 3.516 s
+[INFO] 2023-07-09 03:36:28 Create prediction array
+[INFO] 2023-07-09 03:36:31 Raster with Results saved in E:\LSM\Rasuwa\results\LR\rasters\LR_lr.tif
+[INFO] 2023-07-09 03:36:31 Results saved in E:\LSM\Rasuwa\results\LR\tables\LR_tab.npz
+[INFO] 2023-07-09 03:36:31 Analysis complete!
+[INFO] 2023-07-09 03:36:31 Model saved in E:\LSM\Rasuwa\results\LR\tables\LR_model.pkl
+[INFO] 2023-07-09 03:37:35 activation		relu	
+alpha		0.0001	
+batch_size		auto	
+beta_1		0.9	
+beta_2		0.999	
+early_stopping		False	
+epsilon		1e-08	
+hidden_layer_sizes		(100,)	
+learning_rate		constant	
+learning_rate_init		0.001	
+max_fun		1	
+max_iter		200	
+momentum		0.9	
+n_iter_no_change		10	
+nesterovs_momentum		True	
+power_t		0.5	
+random_state		None	
+shuffle		True	
+solver		adam	
+tol		0.0001	
+validation_fraction		0.1	
+verbose		False	
+warm_start		False
+[INFO] 2023-07-09 03:37:35 Starting ANN learning with Parameters:
+
+[INFO] 2023-07-09 03:38:39 Learning completed in 63.802 s
+[INFO] 2023-07-09 03:38:46 Raster with Results saved in E:\LSM\Rasuwa\results\ANN\rasters\ANN_ann.tif
+[INFO] 2023-07-09 03:38:46 Results saved in E:\LSM\Rasuwa\results\ANN\tables\ANN_tab.npz
+[INFO] 2023-07-09 03:38:46 Model saved in E:\LSM\Rasuwa\results\ANN\tables\ANN_model.pkl
+[INFO] 2023-07-09 03:41:31 Start data preparation...
+[INFO] 2023-07-09 03:42:31 Session start. Loaded Project: E:\LSM\Rasuwa
+[INFO] 2023-07-09 03:43:35 Clipping feature to region.shp
+[INFO] 2023-07-09 03:43:48 Session start. Loaded Project: E:\LSM\Rasuwa
+[INFO] 2023-07-09 03:46:15 Information missing from table_E:\LSM\Rasuwa\data\params\tri_rc.tif.
+[INFO] 2023-07-09 03:46:17 Information missing from table_E:\LSM\Rasuwa\data\params\tri_rc.tif.
+[INFO] 2023-07-09 03:46:38 Information missing from table_E:\LSM\Rasuwa\data\params\tri_rc.tif.
+[INFO] 2023-07-09 03:46:38 Information missing from table_E:\LSM\Rasuwa\data\params\tri_rc.tif.
+[INFO] 2023-07-09 03:46:41 Information missing from table_E:\LSM\Rasuwa\data\params\tri_rc.tif.
+[INFO] 2023-07-09 03:47:09 activation		relu	
+alpha		0.0001	
+batch_size		auto	
+beta_1		0.9	
+beta_2		0.999	
+early_stopping		False	
+epsilon		1e-08	
+hidden_layer_sizes		(100,)	
+learning_rate		constant	
+learning_rate_init		0.001	
+max_fun		1	
+max_iter		200	
+momentum		0.9	
+n_iter_no_change		10	
+nesterovs_momentum		True	
+power_t		0.5	
+random_state		None	
+shuffle		True	
+solver		adam	
+tol		0.0001	
+validation_fraction		0.1	
+verbose		False	
+warm_start		False
+[INFO] 2023-07-09 03:47:09 Starting ANN learning with Parameters:
+
+[INFO] 2023-07-09 03:48:23 Learning completed in 74.117 s
+[INFO] 2023-07-09 03:48:30 Results saved in E:\LSM\Rasuwa\results\ANN\tables\ANN1_tab.npz
+[INFO] 2023-07-09 03:48:30 Raster with Results saved in E:\LSM\Rasuwa\results\ANN\rasters\ANN1_ann.tif
+[INFO] 2023-07-09 03:48:30 Model saved in E:\LSM\Rasuwa\results\ANN\tables\ANN1_model.pkl
+[INFO] 2023-07-09 03:52:41 data path localized - E:\LSM\Rasuwa\data
+[INFO] 2023-07-09 03:52:41 param folder localized - E:\LSM\Rasuwa\data\params
+[INFO] 2023-07-09 03:52:41 inventory folder localized - E:\LSM\Rasuwa\data\inventory
+[INFO] 2023-07-09 03:52:41 training folder localized - E:\LSM\Rasuwa\data\inventory\training
+[INFO] 2023-07-09 03:52:49 Starting analyis
+[INFO] 2023-07-09 03:52:49 Check progress on progress bars
+[INFO] 2023-07-09 03:52:49 Start simple cross validation
+[INFO] 2023-07-09 03:52:50 Weight raster E:\LSM\Rasuwa\results\WoE\rasters\aspect_rc_woe.tif created.
+[INFO] 2023-07-09 03:52:50 Weight raster E:\LSM\Rasuwa\results\WoE\rasters\hillshade_rc_woe.tif created.
+[INFO] 2023-07-09 03:52:51 Weight raster E:\LSM\Rasuwa\results\WoE\rasters\roughness_rc_woe.tif created.
+[INFO] 2023-07-09 03:52:52 Weight raster E:\LSM\Rasuwa\results\WoE\rasters\slope_rc_woe.tif created.
+[INFO] 2023-07-09 03:52:53 Weight raster E:\LSM\Rasuwa\results\WoE\rasters\tpi_rc_woe.tif created.
+[INFO] 2023-07-09 03:52:53 Weight raster E:\LSM\Rasuwa\results\WoE\rasters\tri_rc_woe.tif created.
+[INFO] 2023-07-09 03:52:53 Analysis completed!
+[INFO] 2023-07-09 03:52:57 Please select an item.
+[INFO] 2023-07-09 03:53:00 Please select an item.
+[INFO] 2023-07-09 03:53:11 Please select an item.
+[INFO] 2023-07-09 03:53:16 Report saved under E:\LSM\Rasuwa\results\WoE\reports\aspect_rc.docx
+[INFO] 2023-07-09 03:53:50 Report saved under E:\LSM\Rasuwa\results\WoE\reports\hillshade_rc.docx
+[ERROR] 2023-07-09 03:53:51 Traceback (most recent call last):
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 39, in __init__
+    doc = self.writeanalysis(doc, result, raster, project_path)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 213, in writeanalysis
+    self._add_visresultsplot(doc, result, project_path)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 228, in _add_visresultsplot
+    labels = PlotFunctions.getLabels(result)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\widgets\ResultViewer\plotViewer_main.py", line 57, in getLabels
+    self.tr("No Raster Attribute Table found in {}.").format(
+NameError: name 'self' is not defined
+
+[ERROR] 2023-07-09 03:53:55 Traceback (most recent call last):
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 39, in __init__
+    doc = self.writeanalysis(doc, result, raster, project_path)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 213, in writeanalysis
+    self._add_visresultsplot(doc, result, project_path)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 228, in _add_visresultsplot
+    labels = PlotFunctions.getLabels(result)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\widgets\ResultViewer\plotViewer_main.py", line 57, in getLabels
+    self.tr("No Raster Attribute Table found in {}.").format(
+NameError: name 'self' is not defined
+
+[ERROR] 2023-07-09 03:53:58 Traceback (most recent call last):
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 39, in __init__
+    doc = self.writeanalysis(doc, result, raster, project_path)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 213, in writeanalysis
+    self._add_visresultsplot(doc, result, project_path)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 228, in _add_visresultsplot
+    labels = PlotFunctions.getLabels(result)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\widgets\ResultViewer\plotViewer_main.py", line 57, in getLabels
+    self.tr("No Raster Attribute Table found in {}.").format(
+NameError: name 'self' is not defined
+
+[ERROR] 2023-07-09 20:34:51 Traceback (most recent call last):
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 39, in __init__
+    doc = self.writeanalysis(doc, result, raster, project_path)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 213, in writeanalysis
+    self._add_visresultsplot(doc, result, project_path)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\libs\Reporting\woe_report.py", line 228, in _add_visresultsplot
+    labels = PlotFunctions.getLabels(result)
+  File "C:\Users\Priyanshu\AppData\Local\Programs\LSAT PM\Python\core\widgets\ResultViewer\plotViewer_main.py", line 57, in getLabels
+    self.tr("No Raster Attribute Table found in {}.").format(
+NameError: name 'self' is not defined
+

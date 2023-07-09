@@ -1,0 +1,53 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <GDALRasterAttributeTable tableType="thematic">
+      <FieldDefn index="0">
+        <Name>VALUE</Name>
+        <Type>0</Type>
+        <Usage>5</Usage>
+      </FieldDefn>
+      <FieldDefn index="1">
+        <Name>COUNT</Name>
+        <Type>0</Type>
+        <Usage>5</Usage>
+      </FieldDefn>
+      <FieldDefn index="2">
+        <Name>DESCR</Name>
+        <Type>2</Type>
+        <Usage>5</Usage>
+      </FieldDefn>
+      <Row index="0">
+        <F>1</F>
+        <F>2705652</F>
+        <F>1.00 - 51.80</F>
+      </Row>
+      <Row index="1">
+        <F>2</F>
+        <F>26644</F>
+        <F>&gt;51.80 - 102.60</F>
+      </Row>
+      <Row index="2">
+        <F>3</F>
+        <F>78787</F>
+        <F>&gt;102.60 - 153.40</F>
+      </Row>
+      <Row index="3">
+        <F>4</F>
+        <F>156613</F>
+        <F>&gt;153.40 - 204.20</F>
+      </Row>
+      <Row index="4">
+        <F>5</F>
+        <F>77136</F>
+        <F>&gt;204.20 - 255.00</F>
+      </Row>
+    </GDALRasterAttributeTable>
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">5</MDI>
+      <MDI key="STATISTICS_MEAN">1.3161425655011</MDI>
+      <MDI key="STATISTICS_MINIMUM">1</MDI>
+      <MDI key="STATISTICS_STDDEV">0.93838308772586</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">100</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

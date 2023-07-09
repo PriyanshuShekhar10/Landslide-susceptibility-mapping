@@ -1,0 +1,5 @@
+Projection    UTM
+Zone          45
+Units         METERS
+Zunits        NO
+Parameters    6377299.151  6356098.145120132

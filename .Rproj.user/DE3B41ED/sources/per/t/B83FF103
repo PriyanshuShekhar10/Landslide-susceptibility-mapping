@@ -1,0 +1,26 @@
+{
+    "id": "B83FF103",
+    "path": "E:/LSM/MLTs/LS_XGBoost1.R",
+    "project_path": "MLTs/LS_XGBoost1.R",
+    "type": "r_source",
+    "hash": "1995891516",
+    "contents": "",
+    "dirty": false,
+    "created": 1688451737338.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "24,0",
+        "scrollLine": "21"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1688451684,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1688451684,
+    "read_only": false,
+    "read_only_alternatives": []
+}
